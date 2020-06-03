@@ -93,6 +93,7 @@ public class SftpDemoApplication {
 						}
 					}else {
 						channelSftp.get("inbound/"+lsEntry.getFilename(), download+lsEntry.getFilename());
+						csvDataService.save(download+lsEntry.getFilename());
 					}
 				}
 				System.out.println("Session connected: "+session.isConnected());

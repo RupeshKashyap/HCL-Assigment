@@ -15,6 +15,14 @@
 4. download filizila client and login  with same added user
 	User Credential : port : 127.0.0.1, Username: test_user, password: test, port:22
 	
+5. download from remote server and save into the database
+
+6. if in download path is empty (1st time ) all file we download and store in the database.
+
+7. after every 15 min ,new added file in srver will download if that file is not exist in local download file
+
+8. and read all file from the local download diretory and store in the database
+	
 
 	
  
